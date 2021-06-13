@@ -1,0 +1,1468 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>1st IEEE ICACFCT-2021</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Favicons -->
+  <link href="assets/img/favicon.png" rel="icon">
+  <link href="assets/img/apple-touch-icon.png" rel="apple-touch-icon">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Raleway:300,400,500,700,800" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link href="assets/vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  
+  <link href="assets/vendor/owl.carousel/assets/owl.carousel.min.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">	
+  <!--link href="assets/css/all.min.css" rel="stylesheet"-->
+  <!-- Template Main CSS File -->
+  <link href="assets/css/style.css" rel="stylesheet">
+  <link href="assets/css/agency.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+
+  
+<!--link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"-->
+
+  <!-- =======================================================
+  * Template Name: TheEvent - v2.3.0
+  * Template URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
+  * Author: BootstrapMade.com
+  * License: https://bootstrapmade.com/license/
+  ======================================================== -->
+  
+  
+<style>
+	table {
+  width: 25%;
+  margin: auto;
+  border-collapse: collapse;
+}
+th, td {
+  padding: 15px;
+  text-align: left;
+  border : 2px solid black;
+  font-weight: bold;
+}
+
+tr:hover {
+  background-color:#f5f5f5;
+
+}
+.1{
+
+    
+  border : 2px solid white;
+  font-weight: bold;
+}
+.navbar {
+  overflow: hidden;
+  background-color: #333;
+}
+
+.navbar a {
+  float: left;
+  font-size: 16px;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+.dropdown .dropbtn {
+  font-size: 16px;  
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+
+.navbar a:hover, .dropdown:hover .dropbtn {
+  background-color: red;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  float: none;
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+  text-align: left;
+}
+
+.dropdown-content a:hover {
+  background-color: #ddd;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+</style>
+
+
+
+  
+<style>
+#header {
+  height: 70px;
+  padding: 25px 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  transition: all 0.5s;
+  z-index: 997;
+  
+}
+
+
+#header.header-scrolled, #header.header-fixed {
+  background: rgba(6, 12, 34, 0.98);
+  height: 70px;
+  padding: 15px 0;
+  transition: all 0.5s;
+}
+
+/*#demo{
+	margin:auto;
+	height:5%;
+	width:45vw;
+	border: 4px solid #f82249;
+	text-align: center; 
+	font-size: 4vw;
+	font-family: algerian; 
+	text-shadow: 2px 2px aqua;
+	background-color:#f5f5f5;
+	border-radius:15px;
+}*/
+
+@media (max-width: 991px){
+  #header {
+  height: 70px;
+  padding: 25px 0;
+  position: fixed;
+  left: 0;
+  top: 0;
+  right: 0;
+  transition: all 0.5s;
+  z-index: 997;
+}
+#header.header-scrolled, #header.header-fixed {
+  background: rgba(6, 12, 34, 0.98);
+  height: 70px;
+  padding: 15px 0;
+  transition: all 0.5s;
+  }
+/*#demo{
+	height:7vh;
+	width:85%;
+	font-size: 8vw;
+}*/
+
+}
+</style>
+<script src="https://smtpjs.com/v3/smtp.js">
+</script>
+
+<script type="text/javascript">
+	function sendmail(){
+	var n=document.getElementById("name").value;
+	var e=document.getElementById("email").value;
+	var s=document.getElementById("subject").value;
+	var m=document.getElementById("message").value;
+	Email.send({
+		Host: "smtp.gmail.com",
+		Username: "icacfct@miet.ac.in",
+		Password: "Icacfct@meerut",
+		To: "icacfct@miet.ac.in",
+		From: "ICACFCT@2021",
+		Subject: "New Message Recieved !!!",
+		Body: "Name: "+n+"<br>Email: "+e+"<br>Subject: "+s+"<br>Message: "+m+".<br>",
+	})
+		.then(function (message) {
+		document.getElementById("name").value="";
+		document.getElementById("email").value="";
+		document.getElementById("subject").value="";
+		document.getElementById("message").value="";
+		});
+	}
+	function sendEmail() {
+	var n=document.getElementById("name").value;
+	var e=document.getElementById("email").value;
+	var s=document.getElementById("subject").value;
+	var m=document.getElementById("message").value;
+	Email.send({
+		Host: "smtp.gmail.com",
+		Username: "icacfct@miet.ac.in",
+		Password: "Icacfct@meerut",
+		To: e,
+		From: "ICACFCT@2021",
+		Subject: "Message Recorded Successfully!!!",
+		Body: "Thank you for contacting us, we will contact you soon(if needed).<br> Your message is :"+m+"<br><br>Regards<br>IEEE Conference 2021",
+	})
+		.then(function (message) {
+		sendmail();
+		});
+	}
+</script>
+
+</head>
+
+<body>
+
+  <!-- ======= Header ======= -->
+
+      
+  <header id="header">
+    <div class="container">
+      <!--div id="logo">
+        <!-- Uncomment below if you prefer to use a text logo -->
+        <!-- <h1><a href="#intro">The<span>Event</span></a></h1>-->
+              <a href="index.html" class="scrollto"><div id="logo1" ></div></a>
+      </div>
+      <nav style="float:right;padding-right:40px;" id="nav-menu-container">
+	  
+        <ul class="nav-menu">
+         <li class="menu-active"><a href="index.html">Home</a></li>
+          <li><a href="#about">About</a></li>
+          <li><a href="#impdate">Imp. Dates</a></li>
+          <li><a href="#speakers">Speakers</a></li>
+          <li><a href="#schedule">Schedule</a></li>
+          
+          <!--li><a href="#hotels">Hotels</a></li-->
+          <li><a href="#supporters">Sponsors</a></li>	
+		  
+		  <li>
+			<a class="nav-link dropdown-toggle" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+			  Committee
+			</a>
+			<div class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+			  <a class="dropdown-item" href="committee.html" style="color:#707070;">Steering Committee</a>
+			  <a class="dropdown-item" href="advisory.html" style="color:#707070;">Advisory Committee</a>
+			  <a class="dropdown-item" href="organizing.html" style="color:#707070;">Organizing Committee</a>
+			</div>
+		  </li>
+		  <li><a href="guidelines.html">Submission&nbsp Guidelines</a></li>
+		  <li><a href="Author.html">Call&nbsp for&nbsp Paper</a></li>
+		  <li><a href="#contact">Contact</a></li>
+		  <li class="buy-tickets"><a href="Register.html">Register</a></li>
+		  <!--li><a href="amalgram2021.html">Amalgram</a></li-->
+		
+        </ul>
+      </nav><!-- #nav-menu-container -->
+	  
+    </div>
+  </header><!-- End Header -->
+
+  <!-- ======= Intro Section ======= -->
+  <section id="intro">
+    <div class="intro-container" data-aos="zoom-in" data-aos-delay="100">
+      <h1 class="mb-4 pb-0">1<sup>st</sup> International Conference On Advances In <br><span>Computing & Future Communication Technologies</span></h1>
+      <p class="mb-4 pb-0">16-17 December, 2021<br> Meerut Institute Of Engineering & Technology, Meerut, India</p>
+      <a href="#" class="about-btn scrollto">Paper Submission</a>
+    </div>
+  </section><!-- End Intro Section -->
+
+  <main id="main">
+
+    <!-- ======= About Section ======= -->
+    <section id="about">
+      <div class="container" data-aos="fade-up">
+        <div class="row">
+          <div class="col-lg-6">
+            <h2>About The Event</h2>
+            <p style="text-align: justify;">The First International Conference on “Advances in Computing and Future Communication Technology (ICACFCT-2021)   will be held at Meerut Institute of Engineering and Technology, Meerut India on 16-17 December 2021. The two-day conference will include invited keynote and oral presentations. ICACFCT-2021will provide a forum for researchers and engineers in both academia and industry to exchange the latest innovations and research advancements in Advances in Computing and Communication Engineering, ICACFCT-2021 also provides the attendees the chances to identify the emerging research topics, as well as the future development directions. Prospective authors are invited to submit full (original) research papers, which are NOT submitted or published or under consideration anywhere in other conferences or journals.
+			</p>
+
+          </div>
+          <div class="col-lg-3">
+            <h3>Where</h3>
+            <p>MIET Meerut, INDIA</p>
+			<br>
+			<br>
+            <!--a href="https://goo.gl/maps/9CweuyzDARucHbWy5">click here to get directions</a-->
+          </div>
+          <div class="col-lg-3">
+            <h3>When</h3>
+            <p>Thrusday to Friday<br>16-17 December 2021</p>
+            <div class="title" style="padding-left:10px; border:0px;">
+	<a href="https://www.worldflagcounter.com/details/hOb"><img style="height:165px;width:280px;" src="https://www.worldflagcounter.com/hOb/" alt="Flag Counter"></a>
+              </div>
+
+          </div>
+
+
+        </div>
+
+      </div>
+    </section><!-- End About Section -->
+
+    <marquee style="background-color: #f5f5f5;"><h4 style="color:red;text-shadow: 2px 2px 5px grey;">WE CORDIALLY INVITE YOU TO JOIN US AT ICACFCT 2021, AND LOOK FORWARD TO WELCOMING YOU IN MIET,MEERUT !!</h4></marquee>
+    <div class="section-header">
+              <h2 align="center">THE CONFERENCE STARTS IN :</h2>
+    </div>
+	<div  id="demo"></div><br><br>
+
+<script>
+// Set the date we're counting down to
+var countDownDate = new Date("Dec 16, 2021 15:37:25").getTime();
+
+// Update the count down every 1 second
+var x = setInterval(function() {
+
+  // Get today's date and time
+  var now = new Date().getTime();
+    
+  // Find the distance between now and the count down date
+  var distance = countDownDate - now;
+    
+  // Time calculations for days, hours, minutes and seconds
+  var days = Math.floor(distance / (1000 * 60 * 60 * 24));
+  var hours = Math.floor((distance % (1000 * 60 * 60 * 24)) / (1000 * 60 * 60));
+  var minutes = Math.floor((distance % (1000 * 60 * 60)) / (1000 * 60));
+  var seconds = Math.floor((distance % (1000 * 60)) / 1000);
+    
+  // Output the result in an element with id="demo"
+  //document.getElementById("demo").innerHTML = days + "d : " + hours + "h : " + minutes + "m : " + seconds + "s";
+  document.getElementById("demo").innerHTML=`<table style="font-family:sans-serif;width:40%;" class="table">
+  <thead class="thead-dark">
+  <tr>
+  <th style="text-align:center;">Days</th>
+  <th style="text-align:center;">Hours</th>
+  <th style="text-align:center;">Minutes</th>
+  <th style="text-align:center;">Seconds</th>
+  </tr>
+  </thead>
+  <tr>
+  <td style="font-size:30px;text-align:center;color:red;text-shadow: 2px 2px 5px pink;">`+days+`</td>
+  <td style="font-size:30px;text-align:center;color:red;text-shadow: 2px 2px 5px pink;">`+hours+`</td>
+  <td style="font-size:30px;text-align:center;color:red;text-shadow: 2px 2px 5px pink;">`+minutes+`</td>
+  <td style="font-size:30px;text-align:center;color:red;text-shadow: 2px 2px 5px pink;">`+seconds+`</td>
+  </tr>
+  </table>`
+    
+  // If the count down is over, write some text 
+  if (distance < 0) {
+    clearInterval(x);
+    document.getElementById("demo").innerHTML = "EXPIRED";
+  }
+}, 1000);
+</script>
+
+
+
+    <!--Important Dates detail table-->
+    <section id="impdate">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+              <h2>Important Dates</h2>
+              <p>First Round Submission</p>
+        </div>
+      
+    
+	<table style="width: 42%;">
+        <colgroup>
+               <col span="1" style="width: 27%;">
+               <col span="1" style="width: 15%;">
+               
+        </colgroup>
+      
+      
+      <tr>
+        <td>Submission Deadline</td>
+        <td>20 Aug 2021</td>
+      </tr>
+      <tr>
+        <td>Notification of Acceptance Starts</td>
+        <td>10 Oct 2021</td>
+      </tr>
+      <tr>
+        <td>Last Date of Registration </td>
+        <td>5 Nov 2021</td>
+      </tr>
+      <tr>
+        <td>Camera-Ready Paper Submission</td>
+        <td>15 Nov 2021</td>
+      </tr>
+      <tr>
+        <td>Date of Conference</td>
+        <td>16-17 Dec 2021</td>
+      </tr>
+    </table>
+  </div>
+</section>
+
+		
+
+
+
+
+    <!-- ======= Speakers Section ======= -->
+    <section id="speakers">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Event Speakers</h2>
+          <p>Here are some of our speakers</p>
+        </div>
+         <h1 style="text-align: center;">COMING SOON...</h1>
+
+        <div class="row">
+          <!--div class="col-lg-4 col-md-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="100">
+              <img src="assets/img/speakers/adel.jpg" alt="Speaker 1" class="img-fluid">
+              <div class="details">
+                <h3><a href="speakertemp.html#speaker1-details">Dr. Adel S. Elmaghraby</a></h3>
+                <p>Director of Industry Research & Innovation, University of Louisville</p>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="200">
+              <img src="assets/img/speakers/Miller.jpg" alt="Speaker 2" class="img-fluid">
+              <div class="details">
+                <h3><a href="speakertemp.html#speaker2-details">Mark L. Miller</a></h3>
+                <p>Executive Director,Learning tech.org,San Carlos,CA</p>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="300">
+              <img src="assets/img/speakers/ernest1.jpg" alt="Speaker 3" class="img-fluid">
+              <div class="details">
+                <h3><a href="speakertemp.html#speaker3-details">Ernest Mnkandla</a></h3>
+                <p>Director, School of Computing, University of South Africa</p>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="100">
+              <img src="assets/img/speakers/vineet.jpg" alt="Speaker 4" class="img-fluid">
+              <div class="details">
+                <h3><a href="speakertemp.html#speaker4-details">Vineet Kansal</a></h3>
+                <p>Pro Vice Chancellor Dr APJ Abdul kalam Technical University, Lucknow.</p>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="200">
+              <img src="assets/img/speakers/arijit1.jpg" alt="Speaker 5" class="img-fluid">
+              <div class="details">
+                <h3><a href="speakertemp.html#speaker5-details">Dr. Arijit Roy </a></h3>
+                <p>ISRO,Department of Space,Government of India</p>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="300">
+              <img src="assets/img/speakers/madhu1.jpg" alt="Speaker 6" class="img-fluid">
+              <div class="details">
+                <h3><a href="speakertemp.html#speaker6-details">Madhusudan Singh</a></h3>
+                <p>Woosong University,Republic of Korea</p>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="200">
+              <img src="assets/img/speakers/rakeshk.jpg" alt="Speaker 2" class="img-fluid">
+              <div class="details">
+                <h3><a href="speakertemp.html#speaker7-details">Rakesh Kumar</a></h3>
+                <p>Professor, MMMUT, Gorakhpur, INDIA</p>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="200">
+              <img src="assets/img/speakers/qazi.jpg" alt="Speaker 2" class="img-fluid">
+              <div class="details">
+                <h3><a href="speakertemp.html#speaker8-details">Kashifuddin Qazi</a></h3>
+                <p>Manhattan College, USA</p>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="200">
+              <img src="assets/img/speakers/das1.png" alt="Speaker 2" class="img-fluid">
+              <div class="details">
+                <h3><a href="speakertemp.html#speaker9-details">Prasenjit Das</a></h3>
+                <p>Cyber Security Specialist, Tata Consultancy Services</p>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="col-lg-4 col-md-6">
+            <div class="speaker" data-aos="fade-up" data-aos-delay="200">
+              <img src="assets/img/speakers/rabeb1.jpg" alt="Speaker 2" class="img-fluid">
+              <div class="details">
+                <h3><a href="speakertemp.html#speaker10-details">Rabeb Touati</a></h3>
+                <p>Faculty of Medicine of Tuni ,Tunisia</p>
+                <div class="social">
+                  <a href=""><i class="fa fa-twitter"></i></a>
+                  <a href=""><i class="fa fa-facebook"></i></a>
+                  <a href=""><i class="fa fa-google-plus"></i></a>
+                  <a href=""><i class="fa fa-linkedin"></i></a>
+                </div>
+              </div>
+            </div>
+          </div-->
+        </div>
+      </div>
+
+    </section><!-- End Speakers Section -->
+
+
+    <!-- ======= Schedule Section ======= -->
+    <section id="schedule" class="section-with-bg" style="word-wrap:break-word;">
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Event Schedule</h2>
+          <p>Here is our event schedule</p>
+        </div>
+	    <div>
+        <ul id="day" class="nav nav-tabs" role="tablist" data-aos="fade-up" data-aos-delay="100" >
+          <li class="nav-item">
+            <a class="nav-link active" href="#day-1" role="tab" data-toggle="tab">Day 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#day-2" role="tab" data-toggle="tab">Day 2</a>
+          </li>
+          <!--li class="nav-item">
+            <a class="nav-link" href="#day-3" role="tab" data-toggle="tab">Day 3</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#day-4" role="tab" data-toggle="tab">Day 4</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#day-5" role="tab" data-toggle="tab">Day 5</a>
+          </li-->
+        </ul>
+        <p style="text-align: center;">Conference Program</p>
+	    </div>
+        
+        <!--p class="sub-heading">
+		Conference Program</p-->
+
+        <!--div class="tab-content row justify-content-center" data-aos="fade-up" data-aos-delay="200">
+           
+          <!-- Schdule Day 1 ->
+          <div role="tabpanel" class="col-lg-9 tab-pane fade show active" id="day-1">
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>Day 1. June 21, 2020</time></div>
+              <div class="col-md-10">
+                <h4>Inauguration of 2nd AMALGAM -2020 Summer School</h4>
+                <p>[Join us at] https://zoom.us/j/99800334184?pwd=ZFVjNzBXclZCeWoweVpkSTQwcmdKUT09</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>10:00 AM - 10:05 AM</time></div>
+              <div class="col-md-10">
+                <!-div class="speaker">
+                  <img src="assets/img/speakers/1.jpg" alt="Brenden Legros">
+                </div->
+                <h4>Welcome Address: Mr. Varun Kumar Kakar, Chair, 2nd IEEE AMALGAM-2020 Summer School<span></span></h4>
+                <p></p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>10:05 AM - 10:10 AM</time></div>
+              <div class="col-md-10">
+                <!-div class="speaker">
+                  <img src="assets/img/speakers/1.jpg" alt="Brenden Legros">
+                </div->
+                <h4>Inaugural Address: Dr. Pankaj Kumar Pal, General Chair, 2nd IEEE AMALGAM-2020 Summer School<span></span></h4>
+                <p></p>
+              </div>
+            </div>
+
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>10:10 AM - 10:15 AM</time></div>
+              <div class="col-md-10">
+                <!--div class="speaker">
+                  <img src="assets/img/speakers/1.jpg" alt="Brenden Legros">
+                </div->
+                <h4>Address: Dr. V M Mishra, General Chair, 2nd IEEE AMALGAM-2020 Summer School<span></span></h4>
+                <p></p>
+              </div>
+            </div>
+            
+            
+            
+
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>10:15 AM - 10:25 AM</time></div>
+              <div class="col-md-10">
+                <!-div class="speaker">
+                  <img src="assets/img/speakers/2.jpg" alt="Hubert Hirthe">
+                </div->
+                <h4>Address: Dr. S D Sudarsan, General Chair, 6th IEEE ICACCE-2020<span></span></h4>
+                <p></p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>10:25 AM - 10:30 AM</time></div>
+              <div class="col-md-10">
+                <!-div class="speaker">
+                  <img src="assets/img/speakers/2.jpg" alt="Hubert Hirthe">
+                </div->
+                <h4>Vote of Thanks: Dr. Vishal Kumar, Conference Chair, 6th IEEE ICACCE-2020<span></span></h4>
+                <p></p>
+              </div>
+            </div>
+
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>10:35 AM - 01:00 PM</time></div>
+              <div class="col-md-10">
+                <!-div class="speaker">
+                  <img src="assets/img/speakers/2.jpg" alt="Hubert Hirthe">
+                </div->
+                <h4>Speaker 1: Dr. Anuja Arora, JIIT Noida, India
+Title: Machine Learning:A step towards Artificial Intelligence Hands On workshop : machine learning based classification<span></span></h4>
+                <p></p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>02:00 PM - 03:15 PM</time></div>
+              <div class="col-md-10">
+                <!-div class="speaker">
+                  <img src="assets/img/speakers/2.jpg" alt="Hubert Hirthe">
+                </div->
+                <h4>Speaker 2: Dr. Hariharan Muthusamy, National Institute of Technology (NIT) Uttarakhand
+Title: Speech Recognition Technology and Its Applications to Healthcare<span></span></h4>
+                <p>In the last couple of decades, a plethora of research results have provided manifest that speech production and speech signal analysis can provide clinical information which predicts certain diseases, diagnose illnesses, and assess disease progression or the effectiveness of treatment regimens. The primary idea of using speech as biomarker is that speech analysis can be done quickly with minimum inconvenience or intrusion, and with minimal cost. The current and on-going research is laying a solid foundation for the application of speech recognition as a diagnostic tool. A lot of researches have been conducted on developing software that facilitates human to machine interactions. Recently, many researchers are into developing more applications on speech recognition technology in healthcare such as diagnosis of dementia, laryngeal cancer, language-related diseases, neurological (Parkinson’s disease, Alzheimer’s Disease, amyotrophic lateral sclerosis, cerebellar demyelination and stroke) and intellectual disorders. The characteristics of changes in speech and voice caused by these diseases indicate that speech can serve as biomarker and offer an opportunity to provide information for early detection of onset, progression and severity of the speech and language-related diseases. This talk will discuss technical aspects of the speech recognition technology (SRT) and its applications to healthcare.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>03:20 PM - 04:30 PM</time></div>
+              <div class="col-md-10">
+                <!-div class="speaker">
+                  <img src="assets/img/speakers/2.jpg" alt="Hubert Hirthe">
+                </div->
+                <h4>Speaker 3: Dr. Ajit Singh, Professor, BTKIT Dwarahat, India
+Title: Security Issues and Challenges E-Health Care Record System with new demands of Covid-19<span></span></h4>
+                <p></p>
+              </div>
+            </div>
+
+            
+
+
+
+
+            <!-div class="row schedule-item">
+              <div class="col-md-2"><time>12:00 AM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/3.jpg" alt="Cole Emmerich">
+                </div>
+                <h4>Explicabo et rerum quis et ut ea. <span>Cole Emmerich</span></h4>
+                <p>Veniam accusantium laborum nihil eos eaque accusantium aspernatur.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>02:00 PM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/4.jpg" alt="Jack Christiansen">
+                </div>
+                <h4>Qui non qui vel amet culpa sequi. <span>Jack Christiansen</span></h4>
+                <p>Nam ex distinctio voluptatem doloremque suscipit iusto.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>03:00 PM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/5.jpg" alt="Alejandrin Littel">
+                </div>
+                <h4>Quos ratione neque expedita asperiores. <span>Alejandrin Littel</span></h4>
+                <p>Eligendi quo eveniet est nobis et ad temporibus odio quo.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>04:00 PM</time></div>
+              <div class="col-md-10">
+                <div class="speaker">
+                  <img src="assets/img/speakers/6.jpg" alt="Willow Trantow">
+                </div>
+                <h4>Quo qui praesentium nesciunt <span>Willow Trantow</span></h4>
+                <p>Voluptatem et alias dolorum est aut sit enim neque veritatis.</p>
+              </div>
+            </div->
+
+          </div>
+          <!- End Schdule Day 1 ->
+
+          <!- Schdule Day 2 ->
+          <div role="tabpanel" class="col-lg-9  tab-pane fade" id="day-2">
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>Day 2. June 22, 2020</time></div>
+              <div class="col-md-10">
+                <!-div class="speaker">
+                  <img src="assets/img/speakers/1.jpg" alt="Brenden Legros">
+                </div->
+                <h4>Inauguration of 6th IEEE ICACCE-2020 Conference <span></span></h4>
+                <p></p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time></time></div>
+              <div class="col-md-10">
+                <!-div class="speaker">
+                  <img src="assets/img/speakers/2.jpg" alt="Hubert Hirthe">
+                </div->
+                <h4>Opening Ceremony Lecture: Mark Damron, Chairman, IEEE Las Vegas Section, Dr. S D Sudarsan & Dr. Vishal Kumar, Conference Chair, 6th IEEE ICACCE-2020<span></span></h4>
+                <p></p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>09:30 AM - 09:40 AM</time></div>
+              <div class="col-md-10">
+                <!-div class="speaker">
+                  <img src="assets/img/speakers/2.jpg" alt="Hubert Hirthe">
+                </div->
+                <h4>Welcome Address: Puneet Agarwal, Vice-Chairman, MIET India<span></span></h4>
+                <p></p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>09:40 AM - 10:00 AM</time></div>
+              <div class="col-md-10">
+                <!-div class="speaker">
+                  <img src="assets/img/speakers/2.jpg" alt="Hubert Hirthe">
+                </div->
+                <h4>Cheif Guest: Dr. Vineet Kansal, Pro Vice-Chancellor, AKTU India<span></span></h4>
+                <p></p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time></time></div>
+              <div class="col-md-10">
+                <!-div class="speaker">
+                  <img src="assets/img/speakers/2.jpg" alt="Hubert Hirthe">
+                </div->
+                <h4>Keynote 1: Dr. Adel S. Elmaghraby, University of Louisville, USA
+Title - Deep Learning: From Data to Knowledge<span></span></h4>
+                <p>Abstract: This talk will include a brief introduction and background on some historical aspects of Acritical Intelligence, Machine Learning and Deep Learning. A personal perspective will follow this on why and when we can best use and apply Deep Learning Techniques. The relevance of data types, size and integrity will be discussed with examples. How to translate your research into actions and the value of storytelling to engage the user and management will be also highlighted. Then, we will move to some example of recent research applications that utilized Deep Learning, these range from medical imaging, Health related data, social network analysis, and natural language processing. Some advice and warning on common mistakes and failures will be addressed.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>10:00 AM - 11:00 AM</time></div>
+              <div class="col-md-10">
+                <!--div class="speaker">
+                  <img src="assets/img/speakers/2.jpg" alt="Hubert Hirthe">
+                </div->
+                <h4>Keynote 2: Dr. Rakesh Kumar, MMM University of Technology, Gorakhpur (UP), India.
+Title: Research Challenges in IoT, Edge and Fog Computing<span>Hubert Hirthe</span></h4>
+                <p>Abstract:In recent years, the Internet of Things (IoT) has gained a lot of attention due to connecting various sensor devices with the cloud, to enable smart applications such as smart traffic management, smart houses, and smart grids, connected vehicles among others. The Internet of Things (IoT) paradigm envisions a world in which different objects and handheld devices equipped with sensors connected to the Internet. Such objects may use this connectivity to exchange, store, and process data to sense and to affect the surrounding environment. Since the computational resources of the everyday objects alone may not be sufficient for handling the required computational efforts to achieve this, the IoT devices commonly make use of cloud-based computational resources. Many Internet of Things applications require latency-aware computation for real-time application processing. In IoT environments, connected things generate a huge amount of data, which are generally referred to as big data. Data generated from IoT devices are generally processed in a cloud infrastructure because of the on-demand services and scalability features of the cloud computing paradigm. However, despite the aid of the cloud, the traffic from many Internet-connected devices can still lead to bottlenecks which increase the communication latency and may even limit the expansion of the IoT. Moreover, there are concerns related to preserving the privacy of the aggregated IoT data and reducing the communication cost. But the major challenge in Cloud computing is to meet the requirements of many real-time applications of the Internet of Things. Cloud computing is an ideal solution when there is a high availability of good network bandwidth and Internet services. Whereas, Edge and Fog are emerging a computing architecture/paradigm that help to communicate, manage, store, and processes the data that quickly returns the response. This is made possible by moving these functionalities closer to the end users. Edge computing and cloud computing are independent as wells as mutually beneficial to many applications. To cope with such issues, novel computing paradigms have emerged, two of the most popular being Fog computing and edge computing. In this talk, advancement in IoT technology, various proposed architectures, research trends, and some challenging and open research issues in Edge and Fog computing for IoT applications are discussed and analyzed.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>11:50 AM - 01:30PM(PST)</time></div>
+              <div class="col-md-10">
+                <!--div class="speaker">
+                  <img src="assets/img/speakers/3.jpg" alt="Cole Emmerich">
+                </div->
+                <h4>Technical Session -
+                  Session Chair - Dr. Akhilendra Pratap Singh (NIT, Meghalaya)
+Dr. Pradeep Pant, MIET, India<span></span></h4>
+                <p></p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time></time></div>
+              <div class="col-md-10">
+                <!-div class="speaker">
+                  <img src="assets/img/speakers/4.jpg" alt="Jack Christiansen">
+                </div->
+                <h4>An Efficient GPU Framework for Parallelizing Combinatorial Optimization Heuristics
+Authors - Mohammad Harun Rashid and Dr. Ian McAndrew (Capitol Technology University, USA)</span></h4>
+                <p></p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>03:00 PM</time></div>
+              <div class="col-md-10">
+                <!--div class="speaker">
+                  <img src="assets/img/speakers/5.jpg" alt="Alejandrin Littel">
+                </div->
+                <h4>Every Anonymization Begins with k: A Game-Theoretic Approach for Optimized k Selection in k-Anonymization
+Authors - Anuraag Kotra, AbdelRahman Eldosouky, and Shamik Sengupta (University of Nevada, Reno, NV, USA)<span></span></h4>
+                <p></p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time></time></div>
+              <div class="col-md-10">
+                <!--div class="speaker">
+                  <img src="assets/img/speakers/6.jpg" alt="Willow Trantow">
+                </div->
+                <h4>Understanding students’ usage of smartphone applications for learning purposes: A case study
+Authors - Meluleki Madlala, Surika Civilcharran and Upasana Singh (University of KwaZulu-Natal, South Africa)</span></h4>
+                <p></p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time></time></div>
+              <div class="col-md-10">
+                <!--div class="speaker">
+                  <img src="assets/img/speakers/3.jpg" alt="Cole Emmerich">
+                </div->
+                <h4>Selecting Features for Breast Cancer Analysis and Prediction
+Authors - Sujan Ray (University of Cincinnati, USA)<span></span></h4>
+                <p></p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time></time></div>
+              <div class="col-md-10">
+                <!--div class="speaker">
+                  <img src="assets/img/speakers/3.jpg" alt="Cole Emmerich">
+                </div->
+                <h4>Transient Stability Analysis and Tuning of Power System Stabilizer for Three Machine Nine Bus System Using Frequency Response Approach
+Authors - Kavya Patel (New Jersey Institute of Technology, Newark, USA)<span></span></h4>
+                <p></p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time></time></div>
+              <div class="col-md-10">
+                <!--div class="speaker">
+                  <img src="assets/img/speakers/3.jpg" alt="Cole Emmerich">
+                </div->
+                <h4>Costs management of Research and Development in the Factories of the Future using Virtual Reality
+Authors - Ahmed Elngar, Raghda Abdelkhalik (Beni Suef University, Egypt)<span></span></h4>
+                <p></p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>11:00 AM - 12:00PM PDT</time></div>
+              <div class="col-md-10">
+                <!--div class="speaker">
+                  <img src="assets/img/speakers/3.jpg" alt="Cole Emmerich">
+                </div->
+                <h4> Keynote 3: Dr. Mark L. Miller, Learningtech.org, USA
+Title: Inventing the Future of eLearning
+11:00 AM PST [Join us at] https://us02web.zoom.us/j/4857390432?pwd=VzF1alhqbVBNSVNkT2RIcFhHNW9kdz09
+<span></span></h4>
+                <p>Abstract: What will eLearning look like in the next few decades? What can we glean from the recent flurry of online teaching and learning brought about by the COVID-19 pandemic? What can we predict from active R&D projects? What should we have already learned from the five or six decades of eLearning, since computing first became widely available in many parts of the world? We will examine emerging trends in synchronous teleconferencing solutions, asynchronous learning technologies, online learning management and delivery solutions, gamification of learning, augmented and virtual reality, artificial intelligence and machine learning. We will also examine some key issues that technologists must face to ensure that eLearning doesn’t overlook what is already known about learning.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time>02:00PM - 02:30 PM</time></div>
+              <div class="col-md-10">
+                <!--div class="speaker">
+                  <img src="assets/img/speakers/3.jpg" alt="Cole Emmerich">
+                </div->
+                <h4>Invited Speaker 1: Mr. Prasenjit Das, Cyber Security Specialist, Tata Consultancy Services
+Title: Secure Home access techniques during Corona Pandemic<span>Cole Emmerich</span></h4>
+                <p>Abstract: As we understand, entire global community is suffering from COVID-19 pandemic. Unexpected event has changed the entire world, in terms of their communication channels, industry operation norms, business function postures, Geo political equations, including IT & ITES operation landscape. Global IT industries have now adopted multiple best practices interns of various remote access techniques to support valued customer operations worldwide during this pandemic situation. In the proposed talk, would highlight mechanisms and technologies which are adopted to access and manage core infrastructure in a secure manner.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time></time></div>
+              <div class="col-md-10">
+                <!--div class="speaker">
+                  <img src="assets/img/speakers/3.jpg" alt="Cole Emmerich">
+                </div->
+                <h4>Invited Speaker 2: Dr. Prashant Kumar, NIT, Jalandhar
+Title: Opportunistic Networks and D2D Communication<span></span></h4>
+                <p>Abstract: Last decade witnessed tremendous growth of smartphones and wireless devices, which changed our daily life. Smartphones are equipped with powerful processors, rich communication capabilities that includes cellular telephony, Bluetooth, Wi-Fi and LTE. Besides basic functioning (phone calls and SMS services etc.), today we rely upon our cell phones for entertainment, data procurement, social networking, and significantly more. Device-to-Device communication in cellular network is defined as direct communication between the devices i.e. two users having mobile devices can communicate without traversing or aid of the base station and underlying core network. D2D communication is generally non-transparent to cellular communication. Further D2D communication may occur over cellular spectrum as well as unlicensed spectrum. D2D communication is a promising technique that has been considered to provide a feasible solution to deploy the communication network in remote areas, public safety applications or in the areas where communication infrastructure is damaged.</p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time></time></div>
+              <div class="col-md-10">
+                <!--div class="speaker">
+                  <img src="assets/img/speakers/3.jpg" alt="Cole Emmerich">
+                </div->
+                <h4>Technical Session - II
+Session Chair - Dr. Shivendra Shivani (Thapar University), India
+Dr. Mukesh Rawat, MIET, India<span></span></h4>
+                <p></p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time></time></div>
+              <div class="col-md-10">
+                <!--div class="speaker">
+                  <img src="assets/img/speakers/3.jpg" alt="Cole Emmerich">
+                </div->
+                <h4>Speaker Identification: Variations of a Human Voice
+Authors - Saritha Kinkiri (University of Greenwich Kent, United Kingdom)<span>Cole Emmerich</span></h4>
+                <p></p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time></time></div>
+              <div class="col-md-10">
+                <!--div class="speaker">
+                  <img src="assets/img/speakers/3.jpg" alt="Cole Emmerich">
+                </div->
+                <h4>Wireless MAC Protocol based on Crowd Anticrowd Theory
+Authors - Bhaswar Majumder (IIT Madras, India)<span></span></h4>
+                <p></p>
+              </div>
+            </div>
+
+            <div class="row schedule-item">
+              <div class="col-md-2"><time></time></div>
+              <div class="col-md-10">
+                <!--div class="speaker">
+                  <img src="assets/img/speakers/3.jpg" alt="Cole Emmerich">
+                </div->
+                <h4>Predictive Learning Analytics in Higher Education: Factors, Methods and Challenges
+Authors - Ghaith Al-Tameemi, James Xue, Suraj Ajit, Triantafyllos Kanakis, Israa Hadi (University of Northampton, United Kingdom)<span></span></h4>
+                <p></p>
+              </div>
+            </div>
+
+              <div class="row schedule-item">
+              <div class="col-md-2"><time></time></div>
+              <div class="col-md-10">
+                <!--div class="speaker">
+                  <img src="assets/img/speakers/3.jpg" alt="Cole Emmerich">
+                </div->
+                <h4>SenOpinion: A New Lexicon for Opinion Tagging in Senegalese News Comments
+Authors - Lamine FATY (UCAO, Senegal)<span></span></h4>
+                <p></p>
+              </div>
+            </div>
+
+
+          </div>
+          <!-- End Schdule Day 2 -->
+
+          
+          <!--ul class="nav nav-tabs" role="tablist" data-aos="fade-up" data-aos-delay="100">
+          <li class="nav-item">
+            <a class="nav-link active" href="#day-1" role="tab" data-toggle="tab">Day 1</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#day-2" role="tab" data-toggle="tab">Day 2</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#day-3" role="tab" data-toggle="tab">Day 3</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#day-4" role="tab" data-toggle="tab">Day 4</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#day-5" role="tab" data-toggle="tab">Day 5</a>
+          </li>
+        </ul->
+
+
+        </div-->
+
+      </div>
+
+    </section><!-- End Schedule Section -->
+
+    <!-- ======= Venue Section ======= -->
+    <section id="venue">
+
+      <div class="container-fluid" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Event Venue</h2>
+          <p>Event venue location info </p>
+        </div>
+
+        <div class="row no-gutters">
+          <div class="col-lg-6 venue-map">
+            
+          <a href="https://www.google.com/maps/place/MIET+College/@28.973047,77.6410032,15z/data=!4m2!3m1!1s0x0:0x8795def814a486e7?sa=X&ved=2ahUKEwin5fn_ytDtAhX263MBHfeAC68Q_BIwE3oECB0QBQ"><img style="height:100%;width:100%;" src="assets/img/miet-map.PNG" alt="" class="img-fluid"></a>
+          </div>
+
+
+          <div class="col-lg-6 venue-info">
+            <div class="row justify-content-center">
+              <div class="col-11 col-lg-8">
+                <h3>MIET, Meerut</h3>
+                <p style="text-align: justify;">The flagship Institute of the group, Meerut Institute of Engineering & Technology (MIET), has officially been ranked as the 4th best Engineering College in Uttar Pradesh by AKTU. The MIET Group has affiliations with AKTU, Lucknow. The institutions have been approved by the concerned statutory bodies such as AICTE, Board of Technical Studies, Lucknow, and NCTE. The Institutes offers different technical courses. 
+</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+
+      
+
+        </div>
+      </div>
+
+    </section><!-- End Venue Section ->
+
+   
+
+    <!-- ======= Supporters Section ======= -->
+    <section id="supporters" class="section-with-bg">
+
+      <div class="container" data-aos="fade-up">
+        <div class="section-header">
+          <h2>Sponsors and Partners</h2>
+        </div>
+
+        <div class="row no-gutters supporters-wrap clearfix" data-aos="zoom-in" data-aos-delay="100">
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="assets\img\mietlogo.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="assets\img\ieeeupsection.jpg" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="assets\img\uptu_logo.png" height="120" width="120" class="img-fluid" alt="">
+            </div>
+          </div>
+
+          <div class="col-lg-3 col-md-4 col-xs-6">
+            <div class="supporter-logo">
+              <img src="assets\img\acic.png" class="img-fluid" alt="">
+            </div>
+          </div>
+
+
+        </div>
+
+      </div>
+
+    </section><!-- End Sponsors Section -->
+
+    <!-- =======  F.A.Q Section ======= ->
+    <section id="faq">
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>F.A.Q </h2>
+        </div>
+
+        <div class="row justify-content-center" data-aos="fade-up" data-aos-delay="100">
+          <div class="col-lg-9">
+            <ul id="faq-list">
+
+              <li>
+                <a data-toggle="collapse" class="collapsed" href="#faq1">Non consectetur a erat nam at lectus urna duis? <i class="fa fa-minus-circle"></i></a>
+                <div id="faq1" class="collapse" data-parent="#faq-list">
+                  <p>
+                    Feugiat pretium nibh ipsum consequat. Tempus iaculis urna id volutpat lacus laoreet non curabitur gravida. Venenatis lectus magna fringilla urna porttitor rhoncus dolor purus non.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <a data-toggle="collapse" href="#faq2" class="collapsed">Feugiat scelerisque varius morbi enim nunc faucibus a pellentesque? <i class="fa fa-minus-circle"></i></a>
+                <div id="faq2" class="collapse" data-parent="#faq-list">
+                  <p>
+                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <a data-toggle="collapse" href="#faq3" class="collapsed">Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi? <i class="fa fa-minus-circle"></i></a>
+                <div id="faq3" class="collapse" data-parent="#faq-list">
+                  <p>
+                    Eleifend mi in nulla posuere sollicitudin aliquam ultrices sagittis orci. Faucibus pulvinar elementum integer enim. Sem nulla pharetra diam sit amet nisl suscipit. Rutrum tellus pellentesque eu tincidunt. Lectus urna duis convallis convallis tellus. Urna molestie at elementum eu facilisis sed odio morbi quis
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <a data-toggle="collapse" href="#faq4" class="collapsed">Ac odio tempor orci dapibus. Aliquam eleifend mi in nulla? <i class="fa fa-minus-circle"></i></a>
+                <div id="faq4" class="collapse" data-parent="#faq-list">
+                  <p>
+                    Dolor sit amet consectetur adipiscing elit pellentesque habitant morbi. Id interdum velit laoreet id donec ultrices. Fringilla phasellus faucibus scelerisque eleifend donec pretium. Est pellentesque elit ullamcorper dignissim. Mauris ultrices eros in cursus turpis massa tincidunt dui.
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <a data-toggle="collapse" href="#faq5" class="collapsed">Tempus quam pellentesque nec nam aliquam sem et tortor consequat? <i class="fa fa-minus-circle"></i></a>
+                <div id="faq5" class="collapse" data-parent="#faq-list">
+                  <p>
+                    Molestie a iaculis at erat pellentesque adipiscing commodo. Dignissim suspendisse in est ante in. Nunc vel risus commodo viverra maecenas accumsan. Sit amet nisl suscipit adipiscing bibendum est. Purus gravida quis blandit turpis cursus in
+                  </p>
+                </div>
+              </li>
+
+              <li>
+                <a data-toggle="collapse" href="#faq6" class="collapsed">Tortor vitae purus faucibus ornare. Varius vel pharetra vel turpis nunc eget lorem dolor? <i class="fa fa-minus-circle"></i></a>
+                <div id="faq6" class="collapse" data-parent="#faq-list">
+                  <p>
+                    Laoreet sit amet cursus sit amet dictum sit amet justo. Mauris vitae ultricies leo integer malesuada nunc vel. Tincidunt eget nullam non nisi est sit amet. Turpis nunc eget lorem dolor sed. Ut venenatis tellus in metus vulputate eu scelerisque. Pellentesque diam volutpat commodo sed egestas egestas fringilla phasellus faucibus. Nibh tellus molestie nunc non blandit massa enim nec.
+                  </p>
+                </div>
+              </li>
+
+            </ul>
+          </div>
+        </div>
+
+      </div>
+
+    </section><!- End  F.A.Q Section -->
+
+   
+<section class="bg-light page-section" id="team">
+    <div class="container">
+			<div class="section-header" >
+          <h2>WEB TEAM</h2>
+          
+        </div>
+        
+        <div class="row">
+            
+            <div class="col-sm-4">
+                <div class="team-member">
+                    <a href="https://www.linkedin.com/in/samarpan-jain-855a09193/"><img class="mx-auto rounded-circle" src="assets/img/samarpan.jpg" alt=""></a>
+                    <h4>Samarpan Jain</h4>
+                    <p class="text-muted">Full-Stack Developer</p>
+                    <ul class="list-inline social-buttons">
+                        <li class="list-inline-item">
+                            <a href="https://mobile.twitter.com/Samarpa08121659">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://github.com/samarpan-jain">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.linkedin.com/in/samarpan-jain-855a09193/">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+			
+			<div class="col-sm-4">
+                <div class="team-member">
+                    <a href="https://www.linkedin.com/in/samarth-anand/"><img class="mx-auto rounded-circle" src="assets/img/samarth.png" alt=""></a>
+                    <h4>Samarth Anand</h4>
+                    <p class="text-muted">Full-Stack Developer</p>
+                    <ul class="list-inline social-buttons">
+                        <li class="list-inline-item">
+                            <a href="https://twitter.com/samarth_anand12">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://github.com/samarthanand12">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.linkedin.com/in/samarth-anand/">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+			
+			<div class="col-sm-4">
+                <div class="team-member">
+                    <a href="https://www.linkedin.com/in/sarthakagg1999/"><img class="mx-auto rounded-circle" src="assets/img/sarthak.jpeg" alt=""></a>
+                    <h4>Sarthak Aggarwal</h4>
+                    <p class="text-muted">Full-Stack Developer</p>
+                    <ul class="list-inline social-buttons">
+                        <li class="list-inline-item">
+                            <a href="https://twitter.com/sarthak__1999">
+                                <i class="fab fa-twitter"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://github.com/Sarthak-aggarwal-github">
+                                <i class="fab fa-github"></i>
+                            </a>
+                        </li>
+                        <li class="list-inline-item">
+                            <a href="https://www.linkedin.com/in/sarthakagg1999/">
+                                <i class="fab fa-linkedin-in"></i>
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+           
+
+        </div>
+        
+</section>
+    <!-- ======= Contact Section ======= -->
+    <section id="contact" class="section-bg" >
+
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-header">
+          <h2>Contact Us</h2>
+          
+        </div>
+
+        <div class="row contact-info">
+
+        
+          <div class="col-md-6">
+            <div class="contact-phone">
+              <i class="ion-ios-telephone-outline"></i>
+              <h3>Phone Number</h3>
+			  <div style="width:50%;margin:auto;">
+              <h6 style="text-align: justify;font-family:Cambria;"><a href="tel:+919260993294">+919260993294(Dr. Vimal Kumar)</a></h6>
+              <h6 style="text-align: justify;font-family:Cambria;"><a href="tel:+918299474858">+918299474858(Dr. Shashwat Pathak)</a></h6>
+              <h6 style="text-align: justify;font-family:Cambria;"><a href="tel:+919837477042">+919837477042(Dr. Mukesh Rawat)</a></h6>
+			  <h6 style="text-align: justify;font-family:Cambria;"><a href="tel:+917906470865">+917906470865(Dr. Vikrant Varshney)</a></h6>
+			  </div>
+            </div>
+          </div>
+
+          <div class="col-md-6">
+            <div class="contact-email">
+              <i class="ion-ios-email-outline"></i>
+              <h3>Email</h3>
+              <h5><pre><a href="mailto:icacfct@miet.ac.in">icacfct@miet.ac.in</a></pre></h5>
+            </div>
+          </div>
+
+        </div>
+  
+        
+
+    
+  <div class="form">
+          <form action="https://docs.google.com/forms/u/1/d/e/1FAIpQLScVoXuKuX3DX3_0evsAqx4Q07Av-tYa5nSJ3kS2voPft5TKLw/formResponse"  class="php-email-form" method="post" target="_blank">
+            <div class="form-row">
+              <div class="form-group col-md-6">
+                <input type="text" name="entry.1015095967" class="form-control" id="name" placeholder="Your Name" required/>
+                
+              </div>
+              <div class="form-group col-md-6">
+                <input type="email" class="form-control" name="entry.1592771056" id="email" placeholder="Your Email" required/>
+              </div>
+            </div>
+            <div class="form-group">
+              <input type="text" class="form-control" name="entry.1911009128" id="subject" placeholder="Subject" required/>
+              
+            </div>
+            <div class="form-group">
+              <textarea id="message" class="form-control" name="entry.253885521" rows="5"  placeholder="Message" required></textarea>
+              
+            </div>
+            <div class="text-center"><button onclick="sendEmail()" type="submit">Send Message</button></div>
+          </form>
+        </div>
+  
+    </section>
+<!-- End Contact Section -->
+
+  </main><!-- End #main -->
+
+  <!-- ======= Footer ======= -->
+  <footer id="footer">
+    <div class="footer-top">
+      <div class="container">
+        <div class="row">
+
+          <div class="col-lg-3 col-md-6 footer-info">
+            <img src="assets\img\IEEEXplore.png" alt="ICACCE">
+            <p style="text-align: justify;">
+The IEEE, UP Section is one of the Sections in India coming under the Asia –Pacific Region, Region 10 of IEEE. It covers the entire state of Uttar Pradesh and Uttarakhand. The UP section was approved on 11 May 1992. The UP Section conducts activities which assist the local IEEE members to enhance their professional careers and their communities. </p>
+          </div>
+		  
+		  
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="fa fa-angle-right"></i> <a href="index.html">Home</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#about">About Event</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#impdate">Impotant Dates</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#speakers">Speakers</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="#schedule">Schedule</a></li>
+			  <li><i class="fa fa-angle-right"></i> <a href="https://www.ieee.org/">IEEE</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-links">
+            <h4>Useful Links</h4>
+            <ul>
+              <li><i class="fa fa-angle-right"></i> <a href="#supporters">Sponsors</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="guidelines.html">Submission Guidelines</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="committee.html">Committee</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="Author.html">Call for Papers</a></li>
+              <li><i class="fa fa-angle-right"></i> <a href="Register.html">Register</a></li>
+			  <li><i class="fa fa-angle-right"></i> <a href="http://www.ieeeup.org/">IEEE UP SECTION</a></li>
+            </ul>
+          </div>
+
+          <div class="col-lg-3 col-md-6 footer-contact">
+            <h4>Contact Us</h4>
+            <p>
+              MIET,MEERUT, 
+              U.P ,
+              India<br>
+              <strong>Phone:</strong><br> +919260993294<br>
+              <strong></strong> +918299474858<br>
+              <strong></strong> +919837477042<br>
+			  <strong></strong>+917906470865<br>
+              <strong>Email:</strong>icacfct@miet.ac.in<br>
+            </p>
+
+            <div class="social-links">
+              <a href="https://twitter.com/miet_group" class="twitter"><i class="fab fa-twitter"></i></a>
+              <a href="https://www.facebook.com/MIETGROUP/" class="facebook"><i class="fab fa-facebook"></i></a>
+              <a href="https://www.instagram.com/mietmeerut/" class="instagram"><i class="fab fa-instagram"></i></a>
+              <!--a href="" class="google-plus"><i class="fa fa-google-plus"></i></a-->
+              <a href="https://www.linkedin.com/school/mietgroup/" class="linkedin"><i class="fab fa-linkedin-in"></i></a>
+            </div>
+
+          </div>
+
+        </div>
+      </div>
+    </div>
+
+   
+	</footer>
+  <a href="#" class="back-to-top"><i class="fa fa-angle-up"></i></a>
+
+  <!-- Vendor JS Files -->
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/php-email-form/validate.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/superfish/superfish.min.js"></script>
+  <script src="assets/vendor/hoverIntent/hoverIntent.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <!-- Template Main JS File -->
+  <script src="assets/js/main.js"></script>
+
+</body>
+
+</html>
