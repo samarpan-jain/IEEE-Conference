@@ -551,11 +551,11 @@ body.mobile-nav-active #mobile-nav-toggle {
   background-size: 100% 100%;
   }
   33%{
-  background-image: url('9.png');
+  background-image: url('https://raw.githubusercontent.com/samarpan-jain/IEEE-Conference/main/ieee-assets/css/9.png');
   background-size: 100% 100%;
   }
   66%{
-  background-image: url('10.jpg');
+  background-image: url('https://raw.githubusercontent.com/samarpan-jain/IEEE-Conference/main/ieee-assets/css/10.jpg');
   background-size: 100% 100%;
   }
 }
